@@ -1,6 +1,6 @@
 {
-  "name": "traveldiary",
-  "short_name": "traveldiary",
+  "name": "travel-diary",
+  "short_name": "travel-diary",
   "theme_color": "#383434",
   "background_color": "#fafafa",
   "display": "standalone",
