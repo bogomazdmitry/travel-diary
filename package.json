@@ -1,13 +1,13 @@
 {
-  "name": "angular-traveldiary",
+  "name": "angular-travel-diary",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "build:prod": "ng build --base-href \"https://bogomazdmitry.github.io/traveldiary/\"",
-    "deploy": "npx angular-cli-ghpages --dir=dist/angular-traveldiary --no-silent",
+    "build:prod": "ng build --base-href \"https://bogomazdmitry.github.io/travel-diary/\"",
+    "deploy": "npx angular-cli-ghpages --dir=dist/angular-travel-diary --no-silent",
     "test": "ng test",
     "lint": "ng lint"
   },

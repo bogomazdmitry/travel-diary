@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-traveldiary": {
+    "angular-travel-diary": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
             "allowedCommonJsDependencies": [
               "leaflet"
             ],
-            "outputPath": "dist/angular-traveldiary",
+            "outputPath": "dist/angular-travel-diary",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -98,10 +98,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-traveldiary:build:production"
+              "buildTarget": "angular-travel-diary:build:production"
             },
             "development": {
-              "buildTarget": "angular-traveldiary:build:development"
+              "buildTarget": "angular-travel-diary:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -109,7 +109,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "angular-traveldiary:build"
+            "buildTarget": "angular-travel-diary:build"
           }
         },
         "test": {
