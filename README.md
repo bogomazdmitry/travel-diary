@@ -1,5 +1,6 @@
 # Travel Diary
 
+Simple mock with map. Project is not really active. Maybe, later I will continue.
 
 ## How to build to github pages manually
 
